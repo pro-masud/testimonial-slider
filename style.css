@@ -18,18 +18,21 @@ a{
 /*******
     Testimonial Slider Style Start
 ********/
-.testimonial{
+.owl-carousel{
     display: flex;
     align-items: center;
 }
 
+.testimonial-slider{
+    margin: 40px 0px;
+}
+
 .testimonial-single-slide{
     text-align: center;
+    padding: 0px 10px;
 }
 
 .testimonial-single-slide .user-image{
-    width: 200px;
-    height: 200px;
     border-radius: 50%;
     border: 10px solid #ccc;
 }
